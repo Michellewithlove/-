@@ -45,7 +45,7 @@ const Registration = () => {
                 <input type="email" className="form-control form-control-lg" placeholder="Email" />
               </div>
               <div className="mb-3">
-                <input type="text" className="form-control form-control-lg" placeholder="+7 (___) ___-__-__" />
+                <input type="text" className="form-control form-control-lg" placeholder="+7 (___) ___--" />
               </div>
               <div className="mb-3">
                 <input type="password" className="form-control form-control-lg" placeholder="Пароль" />
