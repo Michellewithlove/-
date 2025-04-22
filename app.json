@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "cycle_frontend_11",
+    "slug": "cycle_frontend_11",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "plugins": [
+      "expo-font"
+    ],
+    "extra": {
+      "fonts": [
+        {
+          "name": "Comfortaa",
+          "weights": [400, 700],
+          "files": [
+            "./assets/fonts/Comfortaa-Regular.ttf",
+            "./assets/fonts/Comfortaa-Bold.ttf"
+          ]
+        }
+      ]
+    },
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
